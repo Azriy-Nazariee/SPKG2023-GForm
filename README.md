@@ -7,7 +7,7 @@ This project aimed to create a verification system for Google Form submissions u
 The goal of this project was to implement a verification process for submissions made through a Google Form. The script was designed to perform various checks on the submitted data, such as duplicate submissions, slot selections, and slot capacity. The script would update the submission status and send confirmation or error emails to the participants.
 
 ## Project Implementation Planning
-We were planning to achirve the above mentioned goal by using Google Apps Script. We were planning to execute the code by following the flowchart below:
+We were planning to achieve the above mentioned goal by using Google Apps Script. We were planning to execute the code by following the flowchart below:
 
 ![Alt text](image.png)
 
