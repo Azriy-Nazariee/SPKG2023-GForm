@@ -13,13 +13,13 @@ We were planning to achieve the goal mentioned earlier by using Google Apps Scri
 
 ## Project Structure
 
-The project includes the following files:
+The project involves the following 3 different files, all of which were trying to achieve the same goals but in different ways of implementation:
 
 1. `Form_validator.js`: Contains the main script responsible for verifying form submissions. It checks for duplicate submissions, the same slot selection, and slot capacity. It also sends success or error emails accordingly.
 
 2. `try.js`: Includes a JavaScript class `FormValidate` and functions `emailSubmissionStatus` and `checkTime`. These functions handle specific form validation logic.
 
-3. `valid.java`: A Java implementation of the form verification logic exists. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity. This serves as one of the earliest codes in the thought processes and was translated into JavaScript as it is the language used to build the App Script
+3. `valid.java`: A Java implementation of the form verification logic exists. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity. This serves as one of the earliest codes in the thought processes and was translated into the above JavaScript - the language used to build the App Script
 
 ## Usage
 
