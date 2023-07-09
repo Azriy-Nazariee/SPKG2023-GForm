@@ -19,7 +19,7 @@ The project includes the following files:
 
 2. `try.js`: Includes a JavaScript class `FormValidate` and functions `emailSubmissionStatus` and `checkTime`. These functions handle specific form validation logic.
 
-3. `valid.java`: Contains a Java implementation of the form verification logic. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity.
+3. `valid.java`: A Java implementation of the form verification logic exists. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity. This serves as one of the earliest code in the thought processes and was translated into JavaScript as it is the language used to build the App Script
 
 ## Usage
 
