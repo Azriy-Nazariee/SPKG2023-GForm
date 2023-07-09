@@ -1,13 +1,13 @@
 # SPKG2023 Google Form Submission Verification
 
-This project aimed to create a verification system for Google Form submissions using Google Apps Script in JavaScript. Unfortunately, the implementation encountered a few issues, including difficulties with importing data from the Google Form into the script and persistent type errors.
+This project aimed to create a verification system for Sirih Pulang Ke Gagang (SPKG) MRSM Taiping 2023's Google Form Registration submissions using Google Apps Script in JavaScript. Unfortunately, the implementation was not achieved successfully as we encountered a few issues, including difficulties with importing data from the Google Form into the script and persistent type errors.
 
 ## Problem Description
 
 The goal of this project was to implement a verification process for submissions made through a Google Form. The script was designed to perform various checks on the submitted data, such as duplicate submissions, slot selections, and slot capacity. The script would update the submission status and send confirmation or error emails to the participants.
 
 ## Project Implementation Planning
-We were planning to achieve the above mentioned goal by using Google Apps Script. We were planning to execute the code by following the flowchart below:
+We were planning to achieve the goal mentioned earlier by using Google Apps Script. We were planning to execute the code by following the flowchart below:
 
 ![Alt text](image.png)
 
@@ -15,11 +15,11 @@ We were planning to achieve the above mentioned goal by using Google Apps Script
 
 The project includes the following files:
 
-1. `Form_validator.js`: Contains the main script responsible for verifying form submissions. It checks for duplicate submissions, same slot selection, and slot capacity. It also sends success or error emails accordingly.
+1. `Form_validator.js`: Contains the main script responsible for verifying form submissions. It checks for duplicate submissions, the same slot selection, and slot capacity. It also sends success or error emails accordingly.
 
 2. `try.js`: Includes a JavaScript class `FormValidate` and functions `emailSubmissionStatus` and `checkTime`. These functions handle specific form validation logic.
 
-3. `valid.java`: A Java implementation of the form verification logic exists. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity. This serves as one of the earliest code in the thought processes and was translated into JavaScript as it is the language used to build the App Script
+3. `valid.java`: A Java implementation of the form verification logic exists. It checks if the email has been sent, the status of the email, the chosen slot, and the capacity. This serves as one of the earliest codes in the thought processes and was translated into JavaScript as it is the language used to build the App Script
 
 ## Usage
 
@@ -36,7 +36,7 @@ To use the script or code provided, follow these steps:
 
 ### Importing Data from Google Form
 
-One of the challenges faced was importing the form responses data into the script. This step is crucial for performing the necessary checks and validations. Ensure that the script has the necessary permissions to access the form responses.
+One of the challenges faced was importing the form responses data into the script. This step is crucial for performing the necessary checks and validations. Upon trial, we learnt that we need to ensure that the script has the necessary permissions to access the form responses.
 
 ### Type Errors and Persistence
 
